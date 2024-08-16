@@ -1,0 +1,89 @@
+$themes: (
+  light: (
+    colorPrimary: #000000,
+    colorSecondary: #afc9c8,
+    colorTextPrimary: #17212a,
+    colorTextSecondary: #5f6969,
+    colorTextTertiary: #899393,
+    colorBackground: #17212a,
+    danger: #f7245b,
+    success: #19ce99,
+    warning: #ffdf3e,
+    colorWhite: #ffffff,
+    colorBlack: #000000,
+    colorLightGrey: #b7cbcb,
+    baseBackground: #fafafa,
+    borderGrey: #9dbfbf,
+    darkText: #001725,
+    lightText: #425c5c,
+    deepGrey: #3e4b61,
+    shadow: #00000019,
+    colorPrimaryLight: #f7fcfc,
+  ),
+  dark: (
+    colorPrimary: #262929,
+    colorSecondary: #afc9c8,
+    colorTextPrimary: #17212a,
+    colorTextSecondary: #5f6969,
+    colorBackground: #17212a,
+    colorTextTertiary: #899393,
+    danger: #f7245b,
+    success: #19ce99,
+    warning: #ffdf3e,
+    colorWhite: #ffffff,
+    colorBlack: #000000,
+    colorLightGrey: #b7cbcb,
+    baseBackground: #fafafa,
+    borderGrey: #9dbfbf,
+    darkText: #001725,
+    lightText: #425c5c,
+    deepGrey: #3e4b61,
+    shadow: #00000019,
+    colorPrimaryLight: #f7fcfc,
+  ),
+);
+
+:root {
+  @each $color, $shades in $themes {
+    @each $shade, $value in $shades {
+      @if $color == 'light' {
+        --#{$shade}: #{$value};
+      }
+    }
+  }
+}
+
+@mixin themify($themes) {
+  @each $theme, $map in $themes {
+    .theme-#{$theme} & {
+      $theme-map: () !global;
+
+      @each $key, $submap in $map {
+        $value: $submap;
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
+// Export theme colors to JS
+// name of color variable will in the format - colorName+themeMode(light/dark)
+:export {
+  @each $theme, $map in $themes {
+    @each $key, $submap in $map {
+      #{unquote($key)}#{$theme}: $submap;
+    }
+  }
+}

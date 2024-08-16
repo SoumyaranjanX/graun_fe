@@ -1,0 +1,73 @@
+{
+  "core": {
+    "projectName": "Grauns Restaurant",
+    "links": {
+      "support": ""
+    }
+  },
+  "pages": {
+    "Dashboard": {
+      "title": "Dashboard"
+    },
+    "Orders": {
+      "title": "Orders",
+      "customerOrders": "Customer Orders",
+      "contactInfoLabels": { "you": "You", "another": "Another person" },
+      "filters": {
+        "allDeliveries": "All Deliveries"
+      }
+    },
+    "Deliveries": {
+      "title": "Deliveries",
+      "customerOrders": "Customer Orders",
+      "contactInfoLabels": { "you": "You", "another": "Another person" },
+      "filters": {
+        "allOrders": "All Orders",
+        "orderWaiting": "Order Waiting"
+      }
+    },
+    "CreateAccount": {
+      "title": "Create Account",
+      "inputs": {
+        "name": { "label": "Full Name", "placeholder": "Enter name" },
+        "email": { "label": "Email", "placeholder": "Enter email" }
+      },
+      "createYourAccount": "Create your account"
+    },
+    "Login": {
+      "title": "Login",
+      "inputs": {
+        "name": { "label": "Full Name", "placeholder": "Enter name" },
+        "email": { "label": "Email", "placeholder": "Enter email" }
+      },
+      "createYourAccount": "Create your account"
+    }
+  },
+  "common": {
+    "buttons": {
+      "proceed": "Proceed",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "cancelInterest": "Cancel Interest",
+      "confirm": "Confirm",
+      "next": "Next",
+      "previous": "Previous",
+      "sendOffer": "Send Offer",
+      "accept": "Accept",
+      "pass": "Pass",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "inputLabels": {
+      "time": "Time",
+      "date": "Date",
+      "accept": "Accept",
+      "pass": "Pass"
+    }
+  },
+  "apiErrors": {
+    "PWB_UN_AUTHORIZED": "Unauthorized to access",
+    "PWB_UNAUTHORIZED": "Unauthorized to access",
+    "SOMETHING_WENT_WRONG": "Something went wrong!!!"
+  }
+}

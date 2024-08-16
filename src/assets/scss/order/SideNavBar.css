@@ -1,0 +1,20 @@
+.logo {
+    padding: 20px;
+    font-weight: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.side_nav_button {
+    display: flex;
+}
+
+.side_nav_button_active {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    width: 120px;
+    
+}

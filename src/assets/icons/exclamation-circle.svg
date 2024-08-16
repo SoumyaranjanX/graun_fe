@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="exclamation-circle" transform="translate(-234 -1404)">
+    <rect id="Rectangle_556" data-name="Rectangle 556" width="18" height="18" transform="translate(234 1404)" fill="none"/>
+    <path id="Path_241" data-name="Path 241" d="M243,1453a9,9,0,1,0,9,9A9,9,0,0,0,243,1453Zm0,16.475a7.475,7.475,0,1,1,7.473-7.475A7.477,7.477,0,0,1,243,1469.475Z" transform="translate(0 -49)" fill="rgba(0,0,0,0.85)"/>
+    <path id="Path_242" data-name="Path 242" d="M250.071,1470.035a.98.98,0,0,0,.283.685.97.97,0,0,0,1.364,0,.98.98,0,0,0,.282-.685.959.959,0,0,0-.282-.68.958.958,0,0,0-1.364,0A.959.959,0,0,0,250.071,1470.035Zm.482-2.25h.964a.159.159,0,0,0,.161-.16v-5.465a.16.16,0,0,0-.161-.16h-.964a.159.159,0,0,0-.161.16v5.465A.159.159,0,0,0,250.553,1467.785Z" transform="translate(-8.035 -53.5)" fill="rgba(0,0,0,0.85)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+.countdown {
+    font-size: 13px;
+    color: #ff4500; /* Bright red-orange */
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: #f3f3f3; /* Light grey background */
+    padding: 5px 8px; /* Padding for better visual appearance */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ff7645; /* Border with the same color as the text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    animation: pulse 1s infinite; /* Pulse animation */
+  }
+  
+  

@@ -1,0 +1,29 @@
+@use './mixins/rem' as *;
+
+$breakpoint-up: (
+  xs: rem(0),
+  sm: rem(768),
+  md: rem(991),
+  lg: rem(1201),
+  xl: rem(1537),
+);
+
+$breakpoint-down: (
+  xs: rem(576),
+  sm: rem(767),
+  md: rem(990),
+  lg: rem(1200),
+  xl: rem(1536),
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoint-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoint-down, $size)) {
+    @content;
+  }
+}

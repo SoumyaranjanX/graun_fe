@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="information" transform="translate(-838 -46)">
+    <rect id="Rectangle_556" data-name="Rectangle 556" width="18" height="18" transform="translate(838 46)" fill="none"/>
+    <path id="Path_17" data-name="Path 17" d="M9,1.636A7.364,7.364,0,1,1,1.636,9,7.333,7.333,0,0,1,9,1.636ZM9,0a9,9,0,1,0,9,9A8.974,8.974,0,0,0,9,0Z" transform="translate(838 46)"/>
+    <path id="Path_18" data-name="Path 18" d="M9.018,4.328a.982.982,0,1,1-1.964,0,.945.945,0,0,1,.982-.982A1.056,1.056,0,0,1,9.018,4.328Z" transform="translate(838.882 46.418)" fill="#093151"/>
+    <path id="Path_19" data-name="Path 19" d="M10.363,13.127H6.109V11.491H7.418V7.236H6.191V5.6H8.236a.9.9,0,0,1,.818.9v5.073h1.309Z" transform="translate(838.764 46.699)"/>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+.notifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 80%;
+  }
+  .notification-menu {
+    max-width: 300px;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .notification-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .notification-icon {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .notification-content div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-content strong {
+    font-size: 14px;
+  }
+  
+  .notification-content p {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+  }

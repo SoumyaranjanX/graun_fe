@@ -1,0 +1,36 @@
+.view_order {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 1px solid black;
+  padding: 5px;
+  width: 100px;
+  font-size: small;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .view_order {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 1024) {
+  .view_order {
+    font-size: small;
+  }
+}
+
+.customTableCell {
+  padding: 5px 15px;
+}
+
+.customTableRow {
+  padding: 7px 15px;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding-bottom: 40px; /* Ajuste por defecto para el espacio del footer */
+  }
+  
+  .privacyFooter {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #b3b3b3;
+    display: flex;
+    z-index: 1000;
+    padding: 10px; /* Añade un poco de padding para que sea más visible */
+    width: 100%; /* Asegura que el footer cubra toda la pantalla */
+    justify-content: center; /* Centra el contenido del footer */
+  }
+  
+  .privacyFooter span:hover {
+    color: #000;
+  }
+
+  /* si el screen size es de un movil haz que este abajo */
+    @media (max-width: 768px) {
+        .privacyFooter {
+        position: relative;
+        }
+    }
+  

@@ -1,0 +1,41 @@
+@keyframes comeFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
+.zoom-enter {
+  transform: translate(-50%, -50%) scale(1);
+}
+.zoom-enter-active {
+  transform: translate(-50%, -50%) scale(50);
+  transition: transform 2s;
+}
+.zoom-exit {
+  transform: translate(-50%, -50%) scale(50);
+}
+.zoom-exit-active {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 2s;
+}
+
+.slide-enter {
+  transform: translateY(-100%);
+}
+.slide-enter-active {
+  transform: translateY(0);
+  transition: transform 2s;
+}
+.slide-exit {
+  transform: translateY(0);
+}
+.slide-exit-active {
+  transform: translateY(-100%);
+  transition: transform 2s;
+}

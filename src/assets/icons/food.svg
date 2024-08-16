@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="food" transform="translate(1.256 0.309)" style="isolation: isolate">
+    <rect id="Rectangle_188" data-name="Rectangle 188" width="18" height="18" transform="translate(-1.256 -0.309)" fill="#fff"/>
+    <path id="Vector" d="M.219,0A.227.227,0,0,0,0,.238V1.666A.227.227,0,0,0,.219,1.9H17.776A.227.227,0,0,0,18,1.666V.238A.227.227,0,0,0,17.776,0ZM.439,1.428V.476H17.556v.952Z" transform="translate(-1.256 13.214)" style="isolation: isolate"/>
+    <path id="Vector-2" data-name="Vector" d="M17.752,10.473A.238.238,0,0,0,18,10.235,8.9,8.9,0,0,0,9.241,1.442V1.385A.718.718,0,0,0,9.727.714a.73.73,0,0,0-1.459,0,.718.718,0,0,0,.486.671v.057A8.9,8.9,0,0,0,0,10.235a.238.238,0,0,0,.243.238ZM9.241.714A.243.243,0,1,1,9,.476.238.238,0,0,1,9.241.714ZM17.5,10H.491A8.436,8.436,0,0,1,9,1.9,8.436,8.436,0,0,1,17.5,10Z" transform="translate(-1.256 2.265)" style="isolation: isolate"/>
+  </g>
+</svg>

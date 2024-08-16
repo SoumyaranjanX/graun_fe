@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'CircularStdBold';
+    src: url('../../assets/fonts/CircularStd-Bold.otf') format('OpenType');
+    /* src: url('../../assets/fonts/CircularStd-Light.otf') format('OpenType'); */
+  }
+
+  .custom-input input:focus::placeholder {
+    color: black;
+  }
+  

@@ -1,0 +1,49 @@
+.inputRounded .MuiOutlinedInput-root {
+  border-radius: 50px;
+  width: 22rem;
+  height: 2.5rem;
+  outline: black;
+}
+.inputCustom .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #000;
+}
+.inputCustom .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #000;
+}
+.inputCustom .MuiInputLabel-outlined {
+  color: #000;
+}
+
+#file{
+  /* background: white;
+  border-radius: 50px;
+  width: 22rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: -8px; */
+}
+::-webkit-file-upload-button {
+  border: none;
+  background: #cccccc;
+  border-radius: 50px;
+  color: white;
+  /* height: 40px;
+  position: relative;
+  top: -4px;
+  left: -13px; */
+}
+.inputRounded1 .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #000;
+}
+.inputRounded1 .MuiInputLabel-outlined {
+  color: #464444;
+}
+
+.inputRounded1 .MuiOutlinedInput-root {
+  border-radius: 50px;
+  width: 22rem;
+  height: 4.5rem;
+  outline: black;
+  padding:1.5rem;
+}
